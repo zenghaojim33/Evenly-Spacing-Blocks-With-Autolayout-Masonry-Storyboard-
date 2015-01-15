@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155D1C251A661C1700CA2488 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D1C241A661C1700CA2488 /* SecondViewController.m */; };
 		158A487C1A652F6600D8F762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A487B1A652F6600D8F762 /* main.m */; };
 		158A487F1A652F6600D8F762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A487E1A652F6600D8F762 /* AppDelegate.m */; };
 		158A48821A652F6600D8F762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A48811A652F6600D8F762 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		158A48871A652F6600D8F762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158A48861A652F6600D8F762 /* Images.xcassets */; };
 		158A488A1A652F6600D8F762 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158A48881A652F6600D8F762 /* LaunchScreen.xib */; };
 		158A48961A652F6600D8F762 /* MasonryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A48951A652F6600D8F762 /* MasonryDemoTests.m */; };
+		4412655369CE60D0FB1A3445 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B475082AEE8E742AC25D008 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062CA398BFD9B81F59E82D62 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		155D1C231A661C1700CA2488 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		155D1C241A661C1700CA2488 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		158A48761A652F6600D8F762 /* MasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		158A487A1A652F6600D8F762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158A487B1A652F6600D8F762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,8 @@
 		158A488F1A652F6600D8F762 /* MasonryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		158A48941A652F6600D8F762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158A48951A652F6600D8F762 /* MasonryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryDemoTests.m; sourceTree = "<group>"; };
+		33E5F5586A93AF28746313DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3B475082AEE8E742AC25D008 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4412655369CE60D0FB1A3445 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				158A48781A652F6600D8F762 /* MasonryDemo */,
 				158A48921A652F6600D8F762 /* MasonryDemoTests */,
 				158A48771A652F6600D8F762 /* Products */,
+				D51AEC9B294085D1DBA64B03 /* Pods */,
+				BCA0042A310BA87728C3AF15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +95,8 @@
 				158A487E1A652F6600D8F762 /* AppDelegate.m */,
 				158A48801A652F6600D8F762 /* ViewController.h */,
 				158A48811A652F6600D8F762 /* ViewController.m */,
+				155D1C231A661C1700CA2488 /* SecondViewController.h */,
+				155D1C241A661C1700CA2488 /* SecondViewController.m */,
 				158A48831A652F6600D8F762 /* Main.storyboard */,
 				158A48861A652F6600D8F762 /* Images.xcassets */,
 				158A48881A652F6600D8F762 /* LaunchScreen.xib */,
@@ -119,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BCA0042A310BA87728C3AF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B475082AEE8E742AC25D008 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D51AEC9B294085D1DBA64B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				062CA398BFD9B81F59E82D62 /* Pods.debug.xcconfig */,
+				33E5F5586A93AF28746313DB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 158A48991A652F6600D8F762 /* Build configuration list for PBXNativeTarget "MasonryDemo" */;
 			buildPhases = (
+				736CF443E22F8656E7655A48 /* Check Pods Manifest.lock */,
 				158A48721A652F6600D8F762 /* Sources */,
 				158A48731A652F6600D8F762 /* Frameworks */,
 				158A48741A652F6600D8F762 /* Resources */,
+				6682246D9020BE79304C3B6A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,11 +245,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6682246D9020BE79304C3B6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736CF443E22F8656E7655A48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		158A48721A652F6600D8F762 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155D1C251A661C1700CA2488 /* SecondViewController.m in Sources */,
 				158A48821A652F6600D8F762 /* ViewController.m in Sources */,
 				158A487F1A652F6600D8F762 /* AppDelegate.m in Sources */,
 				158A487C1A652F6600D8F762 /* main.m in Sources */,
@@ -341,9 +406,11 @@
 		};
 		158A489A1A652F6600D8F762 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062CA398BFD9B81F59E82D62 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,9 +418,11 @@
 		};
 		158A489B1A652F6600D8F762 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E5F5586A93AF28746313DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +481,7 @@
 				158A489B1A652F6600D8F762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		158A489C1A652F6600D8F762 /* Build configuration list for PBXNativeTarget "MasonryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +490,7 @@
 				158A489E1A652F6600D8F762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
